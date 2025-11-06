@@ -1,0 +1,10 @@
+node_modules/
+.env
+.DS_Store
+*.log
+# Allow APK files for deployment
+!downloads/e-responde-mobile.apk
+!downloads/e-responde-smartwatch.apk
+# Keep the downloads directory structure
+downloads/.gitkeep
+
